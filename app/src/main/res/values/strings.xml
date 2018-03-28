@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Random Drink Generator</string>
+    <string name="cocktails">Cocktails</string>
+    <string name="custom">Create Your Own Drink</string>
+    <string name="mocktails">Non-Alcoholic</string>
+    <string name="shooters">Shooters</string>
+    <string name="random">RANDOM DRINK</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+</resources>
