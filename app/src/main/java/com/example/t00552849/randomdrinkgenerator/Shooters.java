@@ -1,7 +1,10 @@
 package com.example.t00552849.randomdrinkgenerator;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 
 /**
  * Created by t00552849 on 3/13/2018.
@@ -14,6 +17,7 @@ public class Shooters extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shooters);
         setTitle(R.string.shooters);
+
     }
 
     /*

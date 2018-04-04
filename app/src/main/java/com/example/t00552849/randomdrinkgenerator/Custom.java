@@ -13,7 +13,7 @@ public class Custom extends AppCompatActivity {
     }
 
 
-    /*We're going to use this guy to write to a file so that
+    /*We're going to use this guy to write to a file so that we can save the drinks that users have made.
 
       */
     /*private void writeToFile(String data,Context context) {
