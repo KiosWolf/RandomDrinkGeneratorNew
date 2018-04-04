@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity /*implements NavigationView.
                                 setContentView(R.layout.activity_main);
                                 break;
                             case R.id.bottombaritem_favourites:
-                                //takes you to the favourites page
+                                setContentView(R.layout.activity_favourites);
                                 break;
                             case R.id.bottombaritem_help:
                                 //takes you to the help page
