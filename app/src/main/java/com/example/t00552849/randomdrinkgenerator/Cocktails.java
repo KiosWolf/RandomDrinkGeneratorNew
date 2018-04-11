@@ -111,8 +111,6 @@ public class Cocktails extends AppCompatActivity implements ExpandableListView.O
 
                         Log.v("PrepareList","Updating List Data");
 
-
-
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -136,6 +134,7 @@ public class Cocktails extends AppCompatActivity implements ExpandableListView.O
 
         // Adding child data
         listDataHeader.add("57 T Bird");
+        listDataHeader.add("Adios Motherf#&ker");
         listDataHeader.add("Alabama Slammer");
         listDataHeader.add("Anita Shaft");
         listDataHeader.add("Arizona Watermelon");
@@ -196,12 +195,6 @@ public class Cocktails extends AppCompatActivity implements ExpandableListView.O
         listDataHeader.add("Irish Tea Time");
         listDataHeader.add("Jack & Jill");
 
-
-
-
-
-
-
     }
 
     private void updateListData(){
@@ -214,241 +207,245 @@ public class Cocktails extends AppCompatActivity implements ExpandableListView.O
         tBird57.add(fileText);
         listDataChild.put(listDataHeader.get(0), tBird57);
 
+        List<String> adiosMF = new ArrayList<>();
+        adiosMF.add(fileText);
+        listDataChild.put(listDataHeader.get(1), adiosMF);
+
         List<String> alabama = new ArrayList<>();
         alabama.add(fileText);
-        listDataChild.put(listDataHeader.get(1), alabama);
+        listDataChild.put(listDataHeader.get(2), alabama);
 
         List<String> anitaShaft = new ArrayList<>();
         anitaShaft.add(fileText);
-        listDataChild.put(listDataHeader.get(2), anitaShaft);
+        listDataChild.put(listDataHeader.get(3), anitaShaft);
 
         List<String> arizonaWatermelon = new ArrayList<>();
         arizonaWatermelon.add(fileText);
-        listDataChild.put(listDataHeader.get(3), arizonaWatermelon);
+        listDataChild.put(listDataHeader.get(4), arizonaWatermelon);
 
         List<String> bahamaMama = new ArrayList<>();
         bahamaMama.add(fileText);
-        listDataChild.put(listDataHeader.get(4), bahamaMama);
+        listDataChild.put(listDataHeader.get(5), bahamaMama);
 
         List<String> bananaPeachy = new ArrayList<>();
         bananaPeachy.add(fileText);
-        listDataChild.put(listDataHeader.get(5), bananaPeachy);
+        listDataChild.put(listDataHeader.get(6), bananaPeachy);
 
         List<String> bananaSmoothie = new ArrayList<>();
         bananaSmoothie.add(fileText);
-        listDataChild.put(listDataHeader.get(6), bananaSmoothie);
+        listDataChild.put(listDataHeader.get(7), bananaSmoothie);
 
         List<String> bananaSplit = new ArrayList<>();
         bananaSplit.add(fileText);
-        listDataChild.put(listDataHeader.get(7), bananaSplit);
+        listDataChild.put(listDataHeader.get(8), bananaSplit);
 
         List<String> barLoveJuice = new ArrayList<>();
         barLoveJuice.add(fileText);
-        listDataChild.put(listDataHeader.get(8), barLoveJuice);
+        listDataChild.put(listDataHeader.get(9), barLoveJuice);
 
         List<String> beachcomber = new ArrayList<>();
         beachcomber.add(fileText);
-        listDataChild.put(listDataHeader.get(9), beachcomber);
+        listDataChild.put(listDataHeader.get(10), beachcomber);
 
         List<String> bellini = new ArrayList<>();
         bellini.add(fileText);
-        listDataChild.put(listDataHeader.get(10), bellini);
+        listDataChild.put(listDataHeader.get(11), bellini);
 
         List<String> berryBanger = new ArrayList<>();
         berryBanger.add(fileText);
-        listDataChild.put(listDataHeader.get(11), berryBanger);
+        listDataChild.put(listDataHeader.get(12), berryBanger);
 
         List<String> bigBooty = new ArrayList<>();
         bigBooty.add(fileText);
-        listDataChild.put(listDataHeader.get(12), bigBooty);
+        listDataChild.put(listDataHeader.get(13), bigBooty);
 
         List<String> blackRussian = new ArrayList<>();
         blackRussian.add(fileText);
-        listDataChild.put(listDataHeader.get(13), blackRussian);
+        listDataChild.put(listDataHeader.get(14), blackRussian);
 
         List<String> bloodyMary = new ArrayList<>();
         bloodyMary.add(fileText);
-        listDataChild.put(listDataHeader.get(14), bloodyMary);
+        listDataChild.put(listDataHeader.get(15), bloodyMary);
 
         List<String> blueHawaii = new ArrayList<>();
         blueHawaii.add(fileText);
-        listDataChild.put(listDataHeader.get(15), blueHawaii);
+        listDataChild.put(listDataHeader.get(16), blueHawaii);
 
         List<String> blueRaspberry = new ArrayList<>();
         blueRaspberry.add(fileText);
-        listDataChild.put(listDataHeader.get(16), blueRaspberry);
+        listDataChild.put(listDataHeader.get(17), blueRaspberry);
 
         List<String> boatDrink = new ArrayList<>();
         boatDrink.add(fileText);
-        listDataChild.put(listDataHeader.get(17), boatDrink);
+        listDataChild.put(listDataHeader.get(18), boatDrink);
 
         List<String> brittHangover = new ArrayList<>();
         brittHangover.add(fileText);
-        listDataChild.put(listDataHeader.get(18), brittHangover);
+        listDataChild.put(listDataHeader.get(19), brittHangover);
 
         List<String> brownCow = new ArrayList<>();
         brownCow.add(fileText);
-        listDataChild.put(listDataHeader.get(19), brownCow);
+        listDataChild.put(listDataHeader.get(20), brownCow);
 
         List<String> caesar = new ArrayList<>();
         caesar.add(fileText);
-        listDataChild.put(listDataHeader.get(20), caesar);
+        listDataChild.put(listDataHeader.get(21), caesar);
 
         List<String> caesarFever = new ArrayList<>();
         caesarFever.add(fileText);
-        listDataChild.put(listDataHeader.get(21), caesarFever);
+        listDataChild.put(listDataHeader.get(22), caesarFever);
 
         List<String> calebsBlue = new ArrayList<>();
         calebsBlue.add(fileText);
-        listDataChild.put(listDataHeader.get(22), calebsBlue);
+        listDataChild.put(listDataHeader.get(23), calebsBlue);
 
         List<String> captainsCooler = new ArrayList<>();
         captainsCooler.add(fileText);
-        listDataChild.put(listDataHeader.get(23), captainsCooler);
+        listDataChild.put(listDataHeader.get(24), captainsCooler);
 
         List<String> carmalyzer = new ArrayList<>();
         carmalyzer.add(fileText);
-        listDataChild.put(listDataHeader.get(24), carmalyzer);
+        listDataChild.put(listDataHeader.get(25), carmalyzer);
 
         List<String> caseySunshine = new ArrayList<>();
         caseySunshine.add(fileText);
-        listDataChild.put(listDataHeader.get(25), caseySunshine);
+        listDataChild.put(listDataHeader.get(26), caseySunshine);
 
         List<String> cherryKool = new ArrayList<>();
         cherryKool.add(fileText);
-        listDataChild.put(listDataHeader.get(26), cherryKool);
+        listDataChild.put(listDataHeader.get(27), cherryKool);
 
         List<String> cherryRum = new ArrayList<>();
         cherryRum.add(fileText);
-        listDataChild.put(listDataHeader.get(27), cherryRum);
+        listDataChild.put(listDataHeader.get(28), cherryRum);
 
         List<String> chichi = new ArrayList<>();
         chichi.add(fileText);
-        listDataChild.put(listDataHeader.get(28), chichi);
+        listDataChild.put(listDataHeader.get(29), chichi);
 
         List<String> cocaine = new ArrayList<>();
         cocaine.add(fileText);
-        listDataChild.put(listDataHeader.get(29), cocaine);
+        listDataChild.put(listDataHeader.get(30), cocaine);
 
         List<String> cocoMonkey = new ArrayList<>();
         cocoMonkey.add(fileText);
-        listDataChild.put(listDataHeader.get(30), cocoMonkey);
+        listDataChild.put(listDataHeader.get(31), cocoMonkey);
 
         List<String> creamSoda = new ArrayList<>();
         creamSoda.add(fileText);
-        listDataChild.put(listDataHeader.get(31), creamSoda);
+        listDataChild.put(listDataHeader.get(32), creamSoda);
 
         List<String> creamsicle = new ArrayList<>();
         creamsicle.add(fileText);
-        listDataChild.put(listDataHeader.get(32), creamsicle);
+        listDataChild.put(listDataHeader.get(33), creamsicle);
 
         List<String> daiquiri = new ArrayList<>();
         daiquiri.add(fileText);
-        listDataChild.put(listDataHeader.get(33), daiquiri);
+        listDataChild.put(listDataHeader.get(34), daiquiri);
 
         List<String> dezzy = new ArrayList<>();
         dezzy.add(fileText);
-        listDataChild.put(listDataHeader.get(34), dezzy);
+        listDataChild.put(listDataHeader.get(35), dezzy);
 
         List<String> doubleDogger = new ArrayList<>();
         doubleDogger.add(fileText);
-        listDataChild.put(listDataHeader.get(35), doubleDogger);
+        listDataChild.put(listDataHeader.get(36), doubleDogger);
 
         List<String> elainesHeaven = new ArrayList<>();
         elainesHeaven.add(fileText);
-        listDataChild.put(listDataHeader.get(36), elainesHeaven);
+        listDataChild.put(listDataHeader.get(37), elainesHeaven);
 
         List<String> blueIcedTea = new ArrayList<>();
         blueIcedTea.add(fileText);
-        listDataChild.put(listDataHeader.get(37), blueIcedTea);
+        listDataChild.put(listDataHeader.get(38), blueIcedTea);
 
         List<String> englishBay = new ArrayList<>();
         englishBay.add(fileText);
-        listDataChild.put(listDataHeader.get(38), englishBay);
+        listDataChild.put(listDataHeader.get(39), englishBay);
 
         List<String> englishFreeze = new ArrayList<>();
         englishFreeze.add(fileText);
-        listDataChild.put(listDataHeader.get(39), englishFreeze);
+        listDataChild.put(listDataHeader.get(40), englishFreeze);
 
         List<String> falseCreek = new ArrayList<>();
         falseCreek.add(fileText);
-        listDataChild.put(listDataHeader.get(40), falseCreek);
+        listDataChild.put(listDataHeader.get(41), falseCreek);
 
         List<String> fruitloop = new ArrayList<>();
         fruitloop.add(fileText);
-        listDataChild.put(listDataHeader.get(41), fruitloop);
+        listDataChild.put(listDataHeader.get(42), fruitloop);
 
         List<String> fudgesicle = new ArrayList<>();
         fudgesicle.add(fileText);
-        listDataChild.put(listDataHeader.get(42), fudgesicle);
+        listDataChild.put(listDataHeader.get(43), fudgesicle);
 
         List<String> fuzzyNavel = new ArrayList<>();
         fuzzyNavel.add(fileText);
-        listDataChild.put(listDataHeader.get(43), fuzzyNavel);
+        listDataChild.put(listDataHeader.get(44), fuzzyNavel);
 
         List<String> georgiaPeach = new ArrayList<>();
         georgiaPeach.add(fileText);
-        listDataChild.put(listDataHeader.get(44), georgiaPeach);
+        listDataChild.put(listDataHeader.get(45), georgiaPeach);
 
         List<String> georgiaPunch = new ArrayList<>();
         georgiaPunch.add(fileText);
-        listDataChild.put(listDataHeader.get(45), georgiaPunch);
+        listDataChild.put(listDataHeader.get(46), georgiaPunch);
 
         List<String> greenGoddess = new ArrayList<>();
         greenGoddess.add(fileText);
-        listDataChild.put(listDataHeader.get(46), greenGoddess);
+        listDataChild.put(listDataHeader.get(47), greenGoddess);
 
         List<String> harveyWallbanger = new ArrayList<>();
         harveyWallbanger.add(fileText);
-        listDataChild.put(listDataHeader.get(47), harveyWallbanger);
+        listDataChild.put(listDataHeader.get(48), harveyWallbanger);
 
         List<String> hawaiianPunch = new ArrayList<>();
         hawaiianPunch.add(fileText);
-        listDataChild.put(listDataHeader.get(48), hawaiianPunch);
+        listDataChild.put(listDataHeader.get(49), hawaiianPunch);
 
         List<String> hawaiianSunset = new ArrayList<>();
         hawaiianSunset.add(fileText);
-        listDataChild.put(listDataHeader.get(49), hawaiianSunset);
+        listDataChild.put(listDataHeader.get(50), hawaiianSunset);
 
         List<String> holyWater = new ArrayList<>();
         holyWater.add(fileText);
-        listDataChild.put(listDataHeader.get(50), holyWater);
+        listDataChild.put(listDataHeader.get(51), holyWater);
 
         List<String> honeyPot = new ArrayList<>();
         honeyPot.add(fileText);
-        listDataChild.put(listDataHeader.get(51), honeyPot);
+        listDataChild.put(listDataHeader.get(52), honeyPot);
 
         List<String> hookersNBlow = new ArrayList<>();
         hookersNBlow.add(fileText);
-        listDataChild.put(listDataHeader.get(52), hookersNBlow);
+        listDataChild.put(listDataHeader.get(53), hookersNBlow);
 
         List<String> hotForTeacher = new ArrayList<>();
         hotForTeacher.add(fileText);
-        listDataChild.put(listDataHeader.get(53), hotForTeacher);
+        listDataChild.put(listDataHeader.get(54), hotForTeacher);
 
         List<String> pumpkinSpiceLatte = new ArrayList<>();
         pumpkinSpiceLatte.add(fileText);
-        listDataChild.put(listDataHeader.get(54), pumpkinSpiceLatte);
+        listDataChild.put(listDataHeader.get(55), pumpkinSpiceLatte);
 
         List<String> leprechaun = new ArrayList<>();
         leprechaun.add(fileText);
-        listDataChild.put(listDataHeader.get(55), leprechaun);
+        listDataChild.put(listDataHeader.get(56), leprechaun);
 
         List<String> irishRose = new ArrayList<>();
         irishRose.add(fileText);
-        listDataChild.put(listDataHeader.get(56), irishRose);
+        listDataChild.put(listDataHeader.get(57), irishRose);
 
         List<String> irishSlurpee = new ArrayList<>();
         irishSlurpee.add(fileText);
-        listDataChild.put(listDataHeader.get(57), irishSlurpee);
+        listDataChild.put(listDataHeader.get(58), irishSlurpee);
 
         List<String> irishTeaTime = new ArrayList<>();
         irishTeaTime.add(fileText);
-        listDataChild.put(listDataHeader.get(58), irishTeaTime);
+        listDataChild.put(listDataHeader.get(59), irishTeaTime);
 
         List<String> jackNJill = new ArrayList<>();
         jackNJill.add(fileText);
-        listDataChild.put(listDataHeader.get(59), jackNJill);
+        listDataChild.put(listDataHeader.get(60), jackNJill);
 
     }
 
