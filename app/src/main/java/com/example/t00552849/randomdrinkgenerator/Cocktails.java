@@ -48,7 +48,6 @@ public class Cocktails extends AppCompatActivity implements ExpandableListView.O
     static List<String> listDataHeader;
     static HashMap<String, List<String>> listDataChild;
     InputStream is;
-    TextView tv;
 
 
     @Override

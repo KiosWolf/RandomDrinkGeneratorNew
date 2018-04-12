@@ -7,6 +7,7 @@ public class Custom extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.DrunkTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom);
         setTitle(R.string.custom);
