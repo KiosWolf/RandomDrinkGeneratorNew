@@ -71,6 +71,11 @@ public class MainActivity extends AppCompatActivity /*implements NavigationView.
         MainActivity.this.startActivity(toShooter);
     }
 
+    protected void onClickRandom(View view){
+        Intent toRandom = new Intent(MainActivity.this, Random.class);
+        MainActivity.this.startActivity(toRandom);
+    }
+
     /*private void setNavigationViewListener(){
         NavigationView navigationView = (NavigationView) findViewById(R.id.bottombaritem_favourites);
         navigationView.setNavigationItemSelectedListener(this);

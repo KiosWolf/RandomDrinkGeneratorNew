@@ -16,4 +16,8 @@
         <item name="android:windowBackground">@drawable/drunk</item>
     </style>
 
+    <style name="HandTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/hand</item>
+    </style>
+
 </resources>

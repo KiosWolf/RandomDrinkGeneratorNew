@@ -46,6 +46,14 @@
             </intent-filter>
 
         </activity>
+
+        <activity android:name=".Random"
+            android:label="@string/random">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
