@@ -113,6 +113,9 @@ public class Mocktails extends AppCompatActivity implements ExpandableListView.O
 
         // Adding child data
         listDataHeader.add("Orange Juice");
+        listDataHeader.add("Pineapple Juice");
+        listDataHeader.add("Water");
+        listDataHeader.add("Milk");
 
     }
 
@@ -125,6 +128,18 @@ public class Mocktails extends AppCompatActivity implements ExpandableListView.O
         List<String> OJ = new ArrayList<>();
         OJ.add(fileText);
         listDataChild.put(listDataHeader.get(0), OJ);
+
+        List<String> PJ = new ArrayList<>();
+        PJ.add(fileText);
+        listDataChild.put(listDataHeader.get(1), PJ);
+
+        List<String> water = new ArrayList<>();
+        water.add(fileText);
+        listDataChild.put(listDataHeader.get(2), water);
+
+        List<String> milk = new ArrayList<>();
+        milk.add(fileText);
+        listDataChild.put(listDataHeader.get(3), milk);
 
 
 
